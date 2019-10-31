@@ -55,18 +55,18 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
         })
       })
 
-      versions.forEach(version => {
-        const [ver, lang] = version.split('---')
-
-        createPage({
-          path: `/${ver}/${lang}/all`,
-          component: path.resolve(`./src/templates/all.js`),
-          context: {
-            version: ver,
-            lang,
-          },
-        })
-      })
+      // versions.forEach(version => {
+      //   const [ver, lang] = version.split('---')
+      //
+      //   createPage({
+      //     path: `/${ver}/${lang}/all`,
+      //     component: path.resolve(`./src/templates/all.js`),
+      //     context: {
+      //       version: ver,
+      //       lang,
+      //     },
+      //   })
+      // })
 
       const redirects = {
         '/express/zh-CN/': '/express/zh-CN/basic/',

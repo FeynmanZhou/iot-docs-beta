@@ -1,0 +1,66 @@
+{
+  "version": "beta",
+  "lang": "zh-CN",
+  "chapters": [
+    {
+      "title": "Release Notes",
+      "icon": "/product.svg",
+      "desc": "为您介绍 KubeSphere 已发布的版本功能与更新",
+      "chapters": [
+        {
+          "title": "Release Notes - 1.0.1",
+          "entry": "./beta/zh-CN/release/release-v101.md",
+          "tag": "最新"
+        },
+        {
+          "title": "Release Notes - 1.0.0",
+          "entry": "./beta/zh-CN/release/release-v100.md"
+        }
+      ]
+    },
+    {
+      "title": "产品介绍",
+      "icon": "/product.svg",
+      "desc": "通过简单的图文介绍帮助您了解 KubeSphere",
+      "chapters": [
+        {
+          "title": "产品简介",
+          "entries": [
+            {
+              "title": "产品功能",
+              "entry": "./beta/zh-CN/introduction/features.md"
+            },
+            {
+              "title": "产品优势",
+              "entry": "./beta/zh-CN/introduction/advantages.md"
+            },
+            {
+              "title": "应用场景",
+              "entry": "./beta/zh-CN/introduction/scenarios.md"
+            },
+            {
+              "title": "名词解释",
+              "entry": "./beta/zh-CN/introduction/glossary.md"
+            }
+          ]
+        },
+        {
+          "title": "产品功能",
+          "entry": "./beta/zh-CN/introduction/features.md"
+        },
+        {
+          "title": "产品优势",
+          "entry": "./beta/zh-CN/introduction/advantages.md"
+        },
+        {
+          "title": "应用场景",
+          "entry": "./beta/zh-CN/introduction/scenarios.md"
+        },
+        {
+          "title": "名词解释",
+          "entry": "./beta/zh-CN/introduction/glossary.md"
+        }
+      ]
+    }
+  ]
+}

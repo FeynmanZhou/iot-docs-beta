@@ -24,7 +24,7 @@ class MarkdownTemplate extends React.Component {
 
   constructor(props) {
     super(props);
-    
+
     this.state = {
       isExpand: false,
       query: '',
@@ -41,7 +41,7 @@ class MarkdownTemplate extends React.Component {
       }
     }
   }
-  
+
 
   componentDidMount() {
     document.addEventListener('click', this.handleClick)
@@ -433,27 +433,15 @@ export const pageQuery = graphql`
           lang
           chapters {
             title
-            entry {
-              id
-              childMarkdownRemark {
-                ...ChildMarkdownRemark
-              }
-            }
-            entries {
-              entry {
-                id
-                childMarkdownRemark {
-                  ...ChildMarkdownRemark
-                }
-              }
-            }
+            icon
+            desc
             chapters {
               title
               tag
               entry {
                 id
                 childMarkdownRemark {
-                  ...ChildMarkdownRemark
+                  ...ChildRemark
                 }
               }
               entries {

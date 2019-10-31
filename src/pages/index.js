@@ -634,20 +634,6 @@ export const query = graphql`
             title
             icon
             desc
-            entry {
-              id
-              childMarkdownRemark {
-                ...ChildRemark
-              }
-            }
-            entries {
-              entry {
-                id
-                childMarkdownRemark {
-                  ...ChildRemark
-                }
-              }
-            }
             chapters {
               title
               tag
@@ -661,7 +647,7 @@ export const query = graphql`
                 entry {
                   id
                   childMarkdownRemark {
-                    ...ChildRemark
+                    ...ChildMarkdownRemark
                   }
                 }
               }
